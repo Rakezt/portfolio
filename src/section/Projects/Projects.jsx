@@ -13,7 +13,7 @@ const Projects = () => {
       <div className={styles.projectsContainer}>
         <ProjectsCard
           src={lms}
-          link='https://fe.easekode.com/login'
+          link='https://learn.easekode.com/login'
           h3='Easekode'
           p='A Learning Management System App'
         />
