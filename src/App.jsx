@@ -1,5 +1,5 @@
 import './App.css';
-import LetsTalk from './section/Contact/LetsTalk';
+import LetsTalk from './section/LetsTalk/LetsTalk';
 import Footer from './section/Footer/Footer';
 import Hero from './section/Hero/Hero';
 import HowIThink from './section/HowIthink/HowIthink';
