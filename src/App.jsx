@@ -4,7 +4,7 @@ import Footer from './section/Footer/Footer';
 import Hero from './section/Hero/Hero';
 import Projects from './section/Projects/Projects';
 import Skills from './section/Skills/Skills';
-import HowIThink from './section/HowIThink/HowIThink';
+import HowIThink from './section/Think/Think';
 
 function App() {
   return (

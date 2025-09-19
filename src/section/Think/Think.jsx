@@ -1,4 +1,4 @@
-import styles from './HowIThinkStyles.module.css';
+import styles from './ThinkStyles.module.css';
 
 const HowIThink = () => {
   return (
