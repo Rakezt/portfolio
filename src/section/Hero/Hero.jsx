@@ -31,11 +31,19 @@ const Hero = () => {
         />
       </div>
       <div className={styles.info}>
-        <h1>
-          L Rakesh
-          <br /> Singh
-        </h1>
-        <h2>Web Developer</h2>
+        <h1>L Rakesh Singh</h1>
+        <h2 className={styles.headline}>
+          MERN Full-Stack Developer — building scalable web apps, secure APIs &
+          real-time systems.
+        </h2>
+
+        <p className={styles.description}>
+          3 years MERN experience • React, Next.js, Redux • Node, Express,
+          MongoDB • AI & real-time features
+        </p>
+        <a href={CV} download>
+          <button className='hover'>Resume</button>
+        </a>
         <span>
           <a href='https://twitter.com/LRakeshSingh' target='_blank'>
             <img src={twitterIcon} alt='Twitter Icon' />
@@ -47,12 +55,6 @@ const Hero = () => {
             <img src={linkedinIcon} alt='Linkedin Icon' />
           </a>
         </span>
-        <p className={styles.description}>
-          Transforming minimal idea into seamless user experience
-        </p>
-        <a href={CV} download>
-          <button className='hover'>Resume</button>
-        </a>
       </div>
     </section>
   );

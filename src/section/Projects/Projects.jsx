@@ -1,46 +1,80 @@
 import styles from './ProjectsStyles.module.css';
-import lms from '../../assets/easekode.jpg';
-import school from '../../assets/school.jpg';
-import gadgets from '../../assets/gadgets.jpg';
-import social from '../../assets/social.jpg';
-import todo from '../../assets/todo.jpg';
-import ProjectsCard from '../../common/ProjectsCard';
 
 const Projects = () => {
   return (
     <section id='projects' className={styles.container}>
       <h1 className='sectionTitle'>Projects</h1>
       <div className={styles.projectsContainer}>
-        <ProjectsCard
-          src={lms}
-          link='https://fe.easekode.com/login'
-          h3='Easekode'
-          p='A Learning Management System App'
-        />
-        <ProjectsCard
-          src={gadgets}
-          link='https://rakeztecommerce.netlify.app/'
-          h3='Bang Bang'
-          p='A Gadget Store App'
-        />
-        <ProjectsCard
-          src={school}
-          link='https://school-student-manager.netlify.app/'
-          h3='School File Manager'
-          p='A CRUD App to manage teacher and student'
-        />
-        <ProjectsCard
-          src={social}
-          link='https://kammanahallipost.netlify.app/'
-          h3='Kammanahalli Post'
-          p='A Social Media App to connect friends'
-        />
-        <ProjectsCard
-          src={todo}
-          link='https://rakezttodoapp.netlify.app/'
-          h3='Todo List'
-          p='A Todo List App with Authentication that save user to do list'
-        />
+        <div className={styles.featured}>
+          <div className={styles.featureCard}>
+            <h3>Lets-Track-Expense-AI</h3>
+            <p className={styles.meta}>
+              Next.js • Node.js • Socket.IO • MongoDB • AI summaries • 3D data
+              viz
+            </p>
+            <p className={styles.desc}>
+              Full-stack expense manager with AI-driven summarization and
+              interactive 3D visualisations for quick money insights.
+            </p>
+            <a
+              href='https://lets-track-expenses-ai.netlify.app/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Live Demo
+            </a>
+          </div>
+
+          <div className={styles.featureCard}>
+            <h3>Rakezt-Bot</h3>
+            <p className={styles.meta}>
+              React • JWT • Gemini/OpenAI integration • Real-time chat
+            </p>
+            <p className={styles.desc}>
+              AI chat assistant with persistent user history and markdown/code
+              rendering — used for quick prototype testing and demos.
+            </p>
+            <a
+              href='https://rakezt-chatbot.netlify.app/login'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Live Demo
+            </a>
+          </div>
+        </div>
+        <div className={styles.featured}>
+          <div className={styles.featureCard}>
+            <h3>Live Poller</h3>
+            <p className={styles.meta}>React • WebSockets • Node.js</p>
+            <p className={styles.desc}>
+              Real-time polling app where users can create or join polls, vote,
+              and see live chart updates instantly.
+            </p>
+            <a
+              href='https://live-poller.netlify.app'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Live Demo
+            </a>
+          </div>
+          <div className={styles.featureCard}>
+            <h3>Bang Bang</h3>
+            <p className={styles.meta}>React • Redux • E-Commerce</p>
+            <p className={styles.desc}>
+              A gadget store web app with product listings, cart functionality,
+              and responsive design for a seamless shopping experience.
+            </p>
+            <a
+              href='https://rakeztecommerce.netlify.app/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Live Demo
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );

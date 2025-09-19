@@ -57,9 +57,9 @@
 .colorMode:hover {
   cursor: pointer;
 }
-.description {
-  max-width: 24ch;
-}
+/* .description {
+  max-width: 40ch;
+} */
 .info {
   display: flex;
   flex-direction: column;

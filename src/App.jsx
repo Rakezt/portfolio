@@ -1,7 +1,8 @@
 import './App.css';
-import Contact from './section/Contact/Contact';
+import LetsTalk from './section/Contact/LetsTalk';
 import Footer from './section/Footer/Footer';
 import Hero from './section/Hero/Hero';
+import HowIThink from './section/HowIthink/HowIthink';
 import Projects from './section/Projects/Projects';
 import Skills from './section/Skills/Skills';
 
@@ -10,8 +11,9 @@ function App() {
     <div>
       <Hero />
       <Projects />
+      <HowIThink />
       <Skills />
-      <Contact />
+      <LetsTalk />
       <Footer />
     </div>
   );
