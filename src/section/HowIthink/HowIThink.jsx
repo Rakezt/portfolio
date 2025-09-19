@@ -17,7 +17,7 @@ const HowIThink = () => {
             I usually build with the{' '}
             <strong>
               MERN stack (React, Redux, Node.js, Express, MongoDB)
-            </strong>
+            </strong>{' '}
             because it allows rapid prototyping, real-time features with
             Socket.IO, and flexibility to scale for production.
           </p>
